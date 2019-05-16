@@ -10,9 +10,9 @@ def prime?(a_number)
       end
       puts numbers_array_factors
     end
-  if numbers_array_factors.empty?
-    true
-  else
-    false
-  end
+    if numbers_array_factors.empty?
+      true
+    else
+      false
+    end
 end
