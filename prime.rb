@@ -5,7 +5,7 @@ def prime?(a_number)
     numbers_array_factors = []
     puts numbers_array
     numbers_array.each do |number|
-      if numbers_array[number] ==  number
+      if a_number % number == 0 
         numbers_array_factors << number
       end
       puts number
