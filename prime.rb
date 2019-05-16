@@ -6,13 +6,13 @@ def prime?(a_number)
     numbers_array.each do |number|
       if a_number % number == 0 && a_number != number
         numbers_array_factors << number
+        if numbers_array_factors.empty?
+          true
+        else
+          false
+        end
       end
     end
-  else
-    false
-  end
-  if numbers_array_factors.empty?
-    true
   else
     false
   end
