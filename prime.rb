@@ -8,7 +8,7 @@ def prime?(a_number)
       if numbers_array[number] ==  number
         numbers_array_factors << number
       end
-    puts number
+      puts number
     end
   else
     false
