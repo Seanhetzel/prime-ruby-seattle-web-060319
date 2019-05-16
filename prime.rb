@@ -7,7 +7,7 @@ def prime?(a_number)
         numbers_array_factors << number
       end
     end
-  
+    puts numbers_array_factors
   if numbers_array_factors.empty?
     true
   else
