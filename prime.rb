@@ -11,6 +11,7 @@ def prime?(a_number)
   else
     false
   end
+  
   if numbers_array_factors.empty?
     true
   else
