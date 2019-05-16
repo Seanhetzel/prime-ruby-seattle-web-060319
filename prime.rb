@@ -7,7 +7,6 @@ def prime?(a_number)
     numbers_array.each do |number|
       if numbers_array[number]  number
         numbers_array_factors << number
-        puts number
       end
     end
   else
