@@ -15,4 +15,7 @@ def prime?(a_number)
     else
       false
     end
+  else
+    false
+  end
 end
