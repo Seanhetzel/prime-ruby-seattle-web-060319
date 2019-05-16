@@ -13,5 +13,6 @@ def prime?(a_number)
   else
     false
   end
-  numbers_array_factors
+  puts numbers_array_factors
+  numbers_array
 end
